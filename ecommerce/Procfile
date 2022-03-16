@@ -1,0 +1,2 @@
+release: python3 manage.py migrate
+we: gunicorn ecommerce.wsgi --preload --log-file -
